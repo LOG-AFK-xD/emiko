@@ -106,16 +106,22 @@ Iɴғᴏʀᴍᴀᴛɪᴏɴ Aʙᴏᴜᴛ Usɪɴɢ Tʜᴇ Bᴏᴛ!. [✨](https://
 buttons = [
     [
         InlineKeyboardButton(
-            text=f"About {dispatcher.bot.first_name}", callback_data="emiko_"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
-        InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""),
-    ],
-    [
-        InlineKeyboardButton(
-            text="➗ Add Me To Your Group ➗", url=f"t.me/{bu}?startgroup=new"
+                            text=f"About {dispatcher.bot.first_name}", callback_data="emiko_"
+                        ),
+                        InlineKeyboardButton(text="Notes", callback_data="emiko_notes"),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="Get Help", callback_data="help_back"
+                        ),
+                        InlineKeyboardButton(
+                            text="Command", callback_data="cbbasic"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="Source Code",
+                            url="https://github.com/kennedy-ex/EmikoRobot",                        
         ),
     ],
 ]
