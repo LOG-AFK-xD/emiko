@@ -121,7 +121,7 @@ buttons = [
                     [
                         InlineKeyboardButton(
                             text="➕ ᗩᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ Ꮐʀᴏᴜᴘ ➕",
-                            url="https://github.com/kennedy-ex/EmikoRobot",                        
+                            url=f"t.me/{bu}?startgroup=new",                        
         ),
     ],
 ]
