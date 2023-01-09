@@ -83,9 +83,8 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-Hi Friend..!!
-━━━━━━━━━━━━━━━━━━━━
-Mʏ Nᴀᴍᴇ Is HOTSPOTXMUSIC & I Cᴀɴ 
+•─────────────────────•
+Mʏ Nᴀᴍᴇ Is Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ + Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ & I Cᴀɴ 
 Pʟᴀʏ Mᴜsɪᴄ Iɴ Vᴏɪᴄᴇ Cʜᴀᴛ..⛵️
 
 📝-𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀
@@ -101,10 +100,7 @@ Pʟᴀʏ Mᴜsɪᴄ Iɴ Vᴏɪᴄᴇ Cʜᴀᴛ..⛵️
 Pʟᴇᴀsᴇ Cʟɪᴄᴋ Bᴇʟᴏᴡ 👇🏻 Fᴏʀ Mᴏʀᴇ
 Iɴғᴏʀᴍᴀᴛɪᴏɴ Aʙᴏᴜᴛ Usɪɴɢ Tʜᴇ Bᴏᴛ!. [✨](https://telegra.ph/file/11b5922a33de9968cedfe.jpg)
 ────────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
-────────────────────────
-✪ Hit /help to see my available commands.
+✪ Hɪᴛ /Help Tᴏ Sᴇᴇ ᴍʏ Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs.
 """
 
 buttons = [
