@@ -369,10 +369,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/KennedyProject/44"
+                                "Health", url="https://t.me/Team_Bot_update"
                             ),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/KennedyProject/43"
+                                "Disaster", url="https://t.me/Team_bot_Support"
                             ),
                         ],
                     ]
@@ -389,10 +389,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/KennedyProject/44"
+                                "Health", url="https://t.me/Team_Bot_update"
                             ),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/KennedyProject/43"
+                                "Disaster", url="https://t.me/Team_bot_Support"
                             ),
                         ],
                     ]
@@ -467,11 +467,11 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>╔═━「 Current Emiko Statistics 」</b>\n" + "\n".join(
+    stats = "<b>╔═━「 Current Bot Statistics 」</b>\n" + "\n".join(
         [mod.__stats__() for mod in STATS]
     )
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By kennedy-ex 」</b>"
+    result += "\n<b>╘═━「 Powered By- @Official_Pro_xD 」</b>"
     update.effective_message.reply_text(
         result, parse_mode=ParseMode.HTML, disable_web_page_preview=True
     )
