@@ -106,21 +106,21 @@ Iɴғᴏʀᴍᴀᴛɪᴏɴ Aʙᴏᴜᴛ Usɪɴɢ Tʜᴇ Bᴏᴛ!. [✨](https://
 buttons = [
     [
         InlineKeyboardButton(
-                            text=f"About {dispatcher.bot.first_name}", callback_data="emiko_"
+                            text=f"ᗩʙᴏᴜᴛ ᴍᴇ", callback_data="emiko_"
                         ),
-                        InlineKeyboardButton(text="Notes", callback_data="emiko_notes"),
+                        InlineKeyboardButton(text="ᑕʀᴇᴀᴛᴏʀ", callback_data="emiko_notes"),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Get Help", callback_data="help_back"
+                            text="Ꮐᴇᴛ ʜᴇʟᴘ", callback_data="help_back"
                         ),
                         InlineKeyboardButton(
-                            text="Command", callback_data="cbbasic"
+                            text="ᏟᴏᴍᴍᴀɴᴅՏ", callback_data="cbbasic"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Source Code",
+                            text="ᗩᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ Ꮐʀᴏᴜᴘ",
                             url="https://github.com/kennedy-ex/EmikoRobot",                        
         ),
     ],
