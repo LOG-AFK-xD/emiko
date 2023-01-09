@@ -108,7 +108,7 @@ buttons = [
         InlineKeyboardButton(
                             text=f"ᗩʙᴏᴜᴛ ᴍᴇ", callback_data="emiko_"
                         ),
-                        InlineKeyboardButton(text="ᑕʀᴇᴀᴛᴏʀ", callback_data="emiko_notes"),
+                        InlineKeyboardButton(text="ᑕʀᴇᴀᴛᴏʀ", url=f"https://telegram.dog/official_pro_xD"),
                     ],
                     [
                         InlineKeyboardButton(
@@ -120,7 +120,7 @@ buttons = [
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᗩᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ Ꮐʀᴏᴜᴘ",
+                            text="➕ ᗩᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ Ꮐʀᴏᴜᴘ ➕",
                             url="https://github.com/kennedy-ex/EmikoRobot",                        
         ),
     ],
