@@ -128,11 +128,11 @@ buttons = [
 
 
 HELP_STRINGS = """
-Click on the button bellow to get description about specifics command."""
+» Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @excrybaby \
+ You can support the project by contacting @Official_pro_xD \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             [
                                 InlineKeyboardButton(
-                                    text="Go Back", callback_data="help_back"
+                                    text="»Go Back", callback_data="help_back"
                                 )
                             ]
                         ]
@@ -417,7 +417,7 @@ def emiko_about_callback(update, context):
                     [
                         InlineKeyboardButton(
                             text="Source Code",
-                            url="https://github.com/kennedy-ex/EmikoRobot",
+                            url="https://github.com/official-afk-xD",
                         ),
                     ],
                     [
@@ -459,15 +459,15 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*๏ Emiko support chats*"
+            text="*๏ Telegram  support chats*"
             f"\nJoin My Support Group/Channel for see or report a problem on {dispatcher.bot.first_name}.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Support", url="t.me/emikosupport"),
+                        InlineKeyboardButton(text="Support", url="t.me/Team_Bot_support"),
                         InlineKeyboardButton(
-                            text="Updates", url="https://t.me/KennedyProject"
+                            text="Updates", url="https://t.me/Team_Bot_update"
                         ),
                     ],
                     [
@@ -486,46 +486,14 @@ def emiko_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="sena-ex", url="https://github.com/kennedy-ex"
+                            text="𝐂ᴀᴘᴛᴀɪɴ 𝐂ʜᴀʀʟᴇ𝐬™", url="t.me/piro_x_power"
                         ),
                         InlineKeyboardButton(
-                            text="TheHamkerCat", url="https://github.com/TheHamkerCat"
+                            text="</Oꜰꜰʟɪɴᴇ> ‌[Aꜰᴋ]", url="t.me/official_pro_xD"
                         ),
                     ],
-                    [
-                        InlineKeyboardButton(
-                            text="Feri", url="https://github.com/FeriEXP"
-                        ),
-                        InlineKeyboardButton(
-                            text="riz-ex", url="https://github.com/riz-ex"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="Anime Kaizoku", url="https://github.com/animekaizoku"
-                        ),
-                        InlineKeyboardButton(
-                            text="TheGhost Hunter", url="https://github.com/HuntingBots"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="Inuka Asith", url="https://github.com/inukaasith"
-                        ),
-                        InlineKeyboardButton(
-                            text="Noob-Kittu", url="https://github.com/noob-kittu"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="Queen Arzoo", url="https://github.com/QueenArzoo"
-                        ),
-                        InlineKeyboardButton(
-                            text="Paul Larsen", url="https://github.com/PaulSonOfLars"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
+                    [                       
+                        InlineKeyboardButton(text="»Go Back", callback_data="emiko_"),
                     ],
                 ]
             ),
@@ -841,7 +809,7 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(
-                f"@{SUPPORT_CHAT}", "👋 Hi, i'm alive.", parse_mode=ParseMode.MARKDOWN
+                f"@{SUPPORT_CHAT}", "👋 Hi, i'm alive baby.", parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
             LOGGER.warning(
